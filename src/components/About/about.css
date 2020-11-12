@@ -1,0 +1,18 @@
+.about-wrapper{
+  background-color: var(--primary-color);
+  color: var(--light-color);
+  text-align: center;
+  padding: 5% 5% 10% 5%;
+  margin-bottom: 5%;
+}
+
+.about-wrapper > h3 {
+  font-size: 32px;
+}
+
+.about-wrapper > p {
+  font-size: 20px;
+  padding:0 20%;
+  line-height:28px;
+  font-family: 'Noto Serif JP', serif;
+}
