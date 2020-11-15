@@ -16,3 +16,57 @@
   line-height:28px;
   font-family: 'Noto Serif JP', serif;
 }
+
+
+@media only screen and (max-width: 1000px){
+  .about-wrapper{
+    padding: 5% 5% 10% 5%;
+    margin-bottom: 5%;
+  }
+  
+  .about-wrapper > h3 {
+    font-size: 32px;
+  }
+  
+  .about-wrapper > p {
+    font-size: 20px;
+    padding:0 15%;
+    line-height:28px;
+  }
+  
+}
+
+
+@media only screen and (max-width: 780px){
+  .about-wrapper{
+    padding: 5% 5% 10% 5%;
+    margin-bottom: 5%;
+  }
+  
+  .about-wrapper > h3 {
+    font-size: 28px;
+  }
+  
+  .about-wrapper > p {
+    font-size: 20px;
+    padding:0 10%;
+    line-height:28px;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .about-wrapper{
+    padding: 12% 5%;
+    margin-bottom: 5%;
+  }
+  
+  .about-wrapper > h3 {
+    font-size: 24px;
+  }
+  
+  .about-wrapper > p {
+    font-size: 18px;
+    padding:0 5%;
+    line-height:28px;
+  }
+}

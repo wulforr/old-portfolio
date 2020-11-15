@@ -2,6 +2,7 @@ import './App.module.css'
 import Navbar from './components/Navbar'
 import LandingPage from './components/LandingPage'
 import About from './components/About/About'
+import Project from './components/Project/Project'
 
 function App () {
   return (
@@ -9,6 +10,7 @@ function App () {
       <Navbar />
       <LandingPage />
       <About />
+      <Project />
       {/*
       navbar
       LandingPage
