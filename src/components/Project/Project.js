@@ -10,7 +10,6 @@ export default function Project() {
     <section className="project-section">
       <h3>My Recent Projects</h3>
       <p>Here are a few design projects I've worked on recently. Want to see more? <span className="primary-text">Email me.</span></p>
-      
       <div className="project-wrapper">
       {arr.map(ele => {
         return (
