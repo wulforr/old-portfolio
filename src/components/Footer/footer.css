@@ -1,0 +1,89 @@
+footer{
+  background-color: var(--primary-color);
+  padding:100px 30px;
+  color: var(--light-color);
+  margin-top: -103px;
+  z-index: 1;
+  position: relative;
+}
+
+footer > h3 {
+  text-align: center;
+  font-size: 32px;
+  margin: 100px 0 50px 0;
+}
+
+.social-media-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.social-media-wrapper > a {
+  border: 2px solid #ccc;
+  background-color:transparent;
+  color: var(--light-color);
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  font-size: 20px;
+  line-height: 51px;
+  text-align: center; 
+  transition: all 0.3s linear;
+}
+
+.twitter-icon:hover {
+  color:#1DA1F2;
+  background-color:#ffffff;
+}
+
+.linkedIn-icon:hover {
+  color:#0077b5;
+  background-color:#ffffff;
+}
+
+.github-icon:hover {
+  color:#333;
+  background-color:#ffffff;
+}
+
+.email-icon:hover {
+  color:#ea4335;
+  background-color:#ffffff;
+}
+
+
+
+
+
+@media only screen and (max-width: 1450px){
+  footer{
+    margin-top: -83px;
+  }
+}
+
+@media only screen and (max-width: 1000px){
+  footer{
+    margin-top: -63px;
+  }
+}
+
+@media only screen and (max-width: 780px){
+  footer{
+    margin-top: -53px;
+  }
+  .social-media-wrapper {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  footer{
+    margin-top: -150px;
+    padding-top: 170px;
+  }
+  .social-media-wrapper {
+    width: 90%;
+  }
+}
