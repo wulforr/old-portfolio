@@ -1,122 +1,134 @@
 .landingPage{
-  text-align: center;
+  /* text-align: center; */
   padding-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 5% 50px;
 }
-.landingPage > h1{
-  font-size: 72px;
+.landingpage-left{
+  width: 60%;
+  padding-top:8%;
 }
-.landingPage > h3{
-  font-size: 40px;
+.landingpage-right{
+  display: flex;
+  align-items: flex-end;
+  width: 40%;
+}
+.landingpage-left > h3{
+  font-size: 32px;
   margin:0;
-  margin-top: 1%;
+  margin-top: 3%;
 }
-.landingPage > p{
-  font-size: 24px;
+.landingpage-left > p{
+  font-size: 22px;
   color:rgba(10, 10, 10, 0.8);
 }
-.landingPage > img{
-  width: 250px;
+.landingpage-right > img{
+  width: 70%;
   height: auto;
+  margin-top: 35%;
+  padding-left: 20%;
 }
-.landingPage > div > svg {
+.landingpage-left > div > svg {
   margin:5% 0;
-  width:50%;
+  width:75%;
   animation: svg-fill-animation 2s ease forwards 2.5s;
   margin-bottom: 2%;
 }
 
-.landingPage > div > svg > path:nth-child(1) {
+.landingpage-left > div > svg > path:nth-child(1) {
   stroke-dasharray: 266;
   stroke-dashoffset: 266;
   animation: svg-animation 2s ease forwards;
 }
 
-.landingPage > div > svg > path:nth-child(2) {
+.landingpage-left > div > svg > path:nth-child(2) {
   stroke-dasharray: 229;
   stroke-dashoffset: 229;
   animation: svg-animation 2s ease forwards 0.2s;
 }
-.landingPage > div > svg > path:nth-child(3) {
+.landingpage-left > div > svg > path:nth-child(3) {
   stroke-dasharray: 225;
   stroke-dashoffset: 225;
   animation: svg-animation 2s ease forwards 0.3s;
 }
-.landingPage > div > svg > path:nth-child(4) {
+.landingpage-left > div > svg > path:nth-child(4) {
   stroke-dasharray: 196;
   stroke-dashoffset: 196;
   animation: svg-animation 2s ease forwards 0.4s;
 }
-.landingPage > div > svg > path:nth-child(5) {
+.landingpage-left > div > svg > path:nth-child(5) {
   stroke-dasharray: 116;
   stroke-dashoffset: 116;
   animation: svg-animation 2s ease forwards 0.5s;
 }
-.landingPage > div > svg > path:nth-child(6) {
+.landingpage-left > div > svg > path:nth-child(6) {
   stroke-dasharray: 202;
   stroke-dashoffset: 202;
   animation: svg-animation 2s ease forwards 0.6s;
 }
-.landingPage > div > svg > path:nth-child(7) {
+.landingpage-left > div > svg > path:nth-child(7) {
   stroke-dasharray: 225;
   stroke-dashoffset: 225;
   animation: svg-animation 2s ease forwards 0.7s;
 }
-.landingPage > div > svg > path:nth-child(8) {
+.landingpage-left > div > svg > path:nth-child(8) {
   stroke-dasharray: 219;
   stroke-dashoffset: 219;
   animation: svg-animation 2s ease forwards 0.8s;
 }
-.landingPage > div > svg > path:nth-child(9) {
+.landingpage-left > div > svg > path:nth-child(9) {
   stroke-dasharray: 225;
   stroke-dashoffset: 225;
   animation: svg-animation 2s ease forwards 0.9s;
 }
-.landingPage > div > svg > path:nth-child(10) {
+.landingpage-left > div > svg > path:nth-child(10) {
   stroke-dasharray: 116;
   stroke-dashoffset: 116;
   animation: svg-animation 2s ease forwards 1.0s;
 }
-.landingPage > div > svg > path:nth-child(11) {
+.landingpage-left > div > svg > path:nth-child(11) {
   stroke-dasharray: 249;
   stroke-dashoffset: 249;
   animation: svg-animation 2s ease forwards 1.1s;
 }
-.landingPage > div > svg > path:nth-child(12) {
+.landingpage-left > div > svg > path:nth-child(12) {
   stroke-dasharray: 229;
   stroke-dashoffset: 229;
   animation: svg-animation 2s ease forwards 1.2s;
 }
-.landingPage > div > svg > path:nth-child(13) {
+.landingpage-left > div > svg > path:nth-child(13) {
   stroke-dasharray: 225;
   stroke-dashoffset: 225;
   animation: svg-animation 2s ease forwards 1.3s;
 }
-.landingPage > div > svg > path:nth-child(14) {
+.landingpage-left > div > svg > path:nth-child(14) {
   stroke-dasharray: 197;
   stroke-dashoffset: 197;
   animation: svg-animation 2s ease forwards 1.4s;
 }
-.landingPage > div > svg > path:nth-child(15) {
+.landingpage-left > div > svg > path:nth-child(15) {
   stroke-dasharray: 266;
   stroke-dashoffset: 266;
   animation: svg-animation 2s ease forwards 1.5s;
 }
-.landingPage > div > svg > path:nth-child(16) {
+.landingpage-left > div > svg > path:nth-child(16) {
   stroke-dasharray: 113;
   stroke-dashoffset: 113;
   animation: svg-animation 2s ease forwards 1.6s;
 }
-.landingPage > div > svg > path:nth-child(17) {
+.landingpage-left > div > svg > path:nth-child(17) {
   stroke-dasharray: 197;
   stroke-dashoffset: 197;
   animation: svg-animation 2s ease forwards 1.7s;
 }
-.landingPage > div > svg > path:nth-child(18) {
+.landingpage-left > div > svg > path:nth-child(18) {
   stroke-dasharray: 284;
   stroke-dashoffset: 284;
   animation: svg-animation 2s ease forwards 1.8s;
 }
-.landingPage > div > svg > path:nth-child(19) {
+.landingpage-left > div > svg > path:nth-child(19) {
   stroke-dasharray: 229;
   stroke-dashoffset: 229;
   animation: svg-animation 2s ease forwards 1.9s;
@@ -141,20 +153,20 @@
 
 @media only screen and (max-width: 1000px){
   .landingPage{
-    padding-top: 5%;
+    padding-top: 2%;
   }
-  .landingPage > div > svg {
-    width:60%;
+  .landingpage-left > div > svg {
+    width:90%;
     margin-bottom: 2%;
   }
-  .landingPage > h3{
-    font-size: 30px;
+  .landingpage-left > h3{
+    font-size: 26px;
   }
-  .landingPage > p{
-    font-size: 20px;
+  .landingpage-left > p{
+    font-size: 18px;
   }
-  .landingPage > img{
-    width: 220px;
+  .landingpage-right > img{
+    width: 80%;
   }
   
 }
@@ -162,41 +174,50 @@
 
 @media only screen and (max-width: 780px){
   .landingPage{
-    padding-top: 10%;
+    text-align: center;
   }
-  .landingPage > div > svg {
+  .landingpage-left{
+    padding-top: 10%;
+    width: 100%;
+  }
+  .landingpage-left > div > svg {
     width:70%;
     margin-bottom: 2%;
   }
-  .landingPage > h3{
-    font-size: 28px;
+  .landingpage-left > h3{
+    font-size: 24px;
   }
-  .landingPage > p{
+  .landingpage-left > p{
     font-size: 20px;
   }
-  .landingPage > img{
-    width: 180px;
+  .landingpage-right{
+    justify-content: center;
+    width: 100vw;
+    
+  }
+  .landingpage-right > img{
+    width: 60%;
+    padding-left: 0;
+    margin-top:5%;
   }
 
 }
 
 
 @media only screen and (max-width: 600px){
-  .landingPage{
+  
+  .landingpage-left{
     padding-top: 10%;
   }
-  .landingPage > div > svg {
+  .landingpage-left > div > svg {
     width:80%;
     margin-bottom: 2%;
   }
-  .landingPage > h3{
-    font-size: 22px;
+  .landingpage-left > h3{
+    font-size: 20px;
   }
-  .landingPage > p{
-    font-size: 18px;
+  .landingpage-left > p{
+    font-size: 16px;
     padding: 0 20px;
-  }
-  .landingPage > img{
-    width: 160px;
   }
 }

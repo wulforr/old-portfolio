@@ -86,4 +86,7 @@ footer > h3 {
   .social-media-wrapper {
     width: 90%;
   }
+  footer > h3 {
+    font-size: 24px;
+  }
 }
