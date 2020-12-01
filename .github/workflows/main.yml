@@ -27,7 +27,7 @@ jobs:
       - name: Build the app
         run: npm run build
       - name: Install Surge
-        run: npm install surge
+        run: npm install -g surge
       - name: Deploy to surge
         run: surge ./build https://wulforr.surge.sh/ --token ${{secrets.TOKEN}}
     
