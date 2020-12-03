@@ -32,5 +32,5 @@ jobs:
       - name: Install Surge
         run: npm install -g surge
       - name: Deploy to surge
-        run: surge ./build https://wulforr.surge.sh/ --token ${{secrets.TOKEN}}
+        run: surge ./build https://wulfor.surge.sh/ --token ${{secrets.TOKEN}}
     
