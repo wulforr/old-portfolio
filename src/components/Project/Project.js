@@ -9,11 +9,11 @@ export default function Project() {
   return (
     <section className="project-section">
       <h3>My Recent Projects</h3>
-      <p>Here are a few design projects I've worked on recently. Want to see more? <span className="primary-text">Email me.</span></p>
+      <p>Here are a few projects I've worked on recently. Want to see more? <span className="primary-text">Email me.</span></p>
       <div className="project-wrapper">
-      {arr.map(ele => {
+      {arr.map((ele,index) => {
         return (
-          <div className="project-card">
+          <div className="project-card" key={index}>
           <img src={PriceWatcher} alt="project" />
           <div className="overlay">
             <p>lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet</p>
