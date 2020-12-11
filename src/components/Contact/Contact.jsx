@@ -27,7 +27,7 @@ export default function Contact() {
           </div>
         </div>
         <div className="contact-btn-wrapper">
-          <button className="btn contact-btn">Let's do this!</button>
+          <a href="#contact" className="btn contact-btn">Let's do this!</a>
         </div>
       </div>
     </section>

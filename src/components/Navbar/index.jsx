@@ -25,7 +25,7 @@ export default function Navbar () {
         </svg>
       </div>
 
-      <button className='btn'>Say Hello</button>
+      <a href="#contact" className='btn'>Say Hello</a>
     </nav>
   )
 }

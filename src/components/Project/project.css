@@ -70,11 +70,12 @@
 }
 
 .more-projects-btn {
+  display: inline-block;
   margin-top: 5%;
   margin-bottom: 5%;
   padding: 10px 20px;
 }
-.github-icon {
+.githubIcon {
   margin-top: 1%;
 }
 

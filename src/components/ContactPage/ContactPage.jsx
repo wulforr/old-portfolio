@@ -3,7 +3,7 @@ import './contactPage.css'
 
 export default function ContactPage() {
   return (
-    <section className="contact-container">
+    <section id="contact" className="contact-container">
       <div className="contact-wrapper">
         <div className="form-row">
           <label className="input-label">Name</label>

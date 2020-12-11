@@ -24,11 +24,11 @@ footer > h3 {
   border: 2px solid #ccc;
   background-color:transparent;
   color: var(--light-color);
-  border-radius: 50%;
-  width: 45px;
-  height: 45px;
-  font-size: 20px;
-  line-height: 51px;
+  border-radius: 30%;
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
+  line-height: 72px;
   text-align: center; 
   transition: all 0.3s linear;
 }
@@ -89,4 +89,12 @@ footer > h3 {
   footer > h3 {
     font-size: 24px;
   }
+  .social-media-wrapper > a {
+    border-radius: 30%;
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+    line-height: 51px;
+  }
+  
 }

@@ -23,7 +23,7 @@ export default function Project() {
         )
       })}
       </div>
-      <button className="btn more-projects-btn"><FaGithub className="github-icon"/> See more on Github</button>
+      <a href="https://github.com/wulforr" target="_blank" rel="noopener noreferrer" className="btn more-projects-btn"><FaGithub className="githubIcon"/> See more on Github</a>
     </section>
   )
 }
