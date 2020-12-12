@@ -6,12 +6,15 @@ import Project from './components/Project/Project'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import ContactPage from './components/ContactPage/ContactPage'
+import MySkills from './components/MySkills/MySkills'
+
 function App () {
   return (
     <div className='App'>
       <Navbar />
       <LandingPage />
       <About />
+      <MySkills />
       <Project />
       <Contact />
       <Footer />

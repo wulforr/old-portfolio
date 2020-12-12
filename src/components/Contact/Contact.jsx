@@ -1,6 +1,6 @@
 import React from 'react'
 import './contact.css'
-import Email from '../../assets/EmailIcon.svg'
+import Email from '../../assets/email.svg'
 
 export default function Contact() {
   return (

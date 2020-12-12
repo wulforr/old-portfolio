@@ -1,0 +1,25 @@
+.myskills{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  padding: 2% 5%;
+  box-sizing: border-box;
+}
+.myskills > div {
+  width: 50%;
+}
+.skills-content > h3 {
+  font-size: 32px;
+  margin-bottom: 10%;
+}
+
+.skills-content > p{
+  font-size: 20px;
+  line-height: 28px;
+  font-family: 'Noto Serif JP', serif;
+}
+
+.myskills-image-wrapper > img {
+  width: 100%;
+}
