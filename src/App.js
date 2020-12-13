@@ -7,6 +7,7 @@ import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import ContactPage from './components/ContactPage/ContactPage'
 import MySkills from './components/MySkills/MySkills'
+import Blogs from './components/Blogs/Blogs'
 
 function App () {
   return (
@@ -17,6 +18,7 @@ function App () {
       <MySkills />
       <Project />
       <Contact />
+      <Blogs />
       <Footer />
       <ContactPage />
       {/*

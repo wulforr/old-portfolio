@@ -1,9 +1,13 @@
 import React from 'react'
 import './contactPage.css'
+import ContactIllustration from '../../assets/contact.svg'
 
 export default function ContactPage() {
   return (
     <section id="contact" className="contact-container">
+      <div className="contact-img-wrapper">
+        <img src={ContactIllustration} alt="contact illustration" />
+      </div>
       <div className="contact-wrapper">
         <div className="form-row">
           <label className="input-label">Name</label>
